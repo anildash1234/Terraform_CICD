@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "priya" {
     ami = "ami-0cc9838aa7ab1dce7"
-    instance_type = "t2.medium"
+    instance_type = "t2.nano"
     tags = {
       Name = "dev"
     }
